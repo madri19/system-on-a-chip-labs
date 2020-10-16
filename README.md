@@ -6,4 +6,4 @@ Lab02(Using VHDL) used top-level-entity.vhdl, bsc_7segment.vhdl, and add_bothSW.
 
 Lab03(Nios II Softcore Processor) Project will use NIOS 2 processor with PIO cores to read the switches (sw3-0 as one hex digit, sw7 - 4 as another hex digit, and sw9-8 as a third hex digit) and display them on the 7 segment displays. All of the decoding is done in software and only generic PIO cores are used.
 
-Lab04(FreeRTOS and the NIOS II) 
+Lab04(FreeRTOS and the NIOS II) Project will use the NIOS 2 processor with PIO cores to read  4 push buttons and output to the 10 LED's a different LED pattern based on which button was pressed. This is using FreeRTOS to create the 2 tasks and they share a queue object to transmit the message between tasks.
